@@ -36,11 +36,12 @@ img {
     display: block;
     border: none;
     max-width: 100%;
+    object-fit:cover;
 }
 .container {
     max-width: 1158px;
-        display: flex;
-        margin: 0;
+    display: flex;
+    margin: 0;
 }
 
 .menu {
@@ -58,19 +59,16 @@ img {
 .menu_nav_list {
     display: flex;
     gap: 40px;
-    padding-left: 76px;
-    padding: 0 15px; 
+    margin: auto;
 }
+
 
 .contacts_list {
     display: flex;
     gap: 40px;
-    margin-left: auto;
-    margin-right: 332px;
-}
-
-.logo {
-    
+    margin: auto;
+    padding: 24px 0;
+    margin-left: 270px;
 }
 
 main {
@@ -82,6 +80,7 @@ main {
     font-weight: 500;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    
 }
 
 .menu_nav .item:hover {
@@ -115,7 +114,7 @@ main {
     color: #4D5AE5;
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
-
+    margin: auto;
 }
 .logo-web {
     color:#2e2f42;
@@ -215,6 +214,10 @@ main {
 .our-team-ul .item {
     text-align: center;
     background-color: #ffffff;
+    margin-bottom: 120px;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 7px 1px -6px rgba(167, 167, 167, 0.5);
+    
 }
 
 .portfolio-conteiner-title {
@@ -255,16 +258,23 @@ main {
     
 }
 
+.item_text {
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    border-color: #E7E9FC;
+    padding-left: 16px;
+    
+}
+
 .portfolio-list .item {
     background-color: #ffffff;
     text-align: left;
-    border-width: 1px;
-    border-style: solid;
-    border-color: #E7E9FC;
+   
 }
 
 .site-info {
     background-color: #2E2F42;
+    
 }
 
 .title-three {
@@ -286,6 +296,31 @@ main {
     letter-spacing: 0.02em;
 }
 
+.logo_site-info {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #4D5AE5;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+
+}
+
 .logo-footer {
     color: #F4F4FD;
+}
+
+.container_footer {
+
+    max-width: 1158px;
+    margin: auto;
+    text-align: left;
+    padding-top: 100px;
+    margin-left: 156px;
+    width: 264px;
+}
+
+.footer-paragraf {
+    padding-bottom: 100px;
 }
