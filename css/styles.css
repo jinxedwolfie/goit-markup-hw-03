@@ -13,15 +13,6 @@ body {
     line-height: 1.5;
 }
 
-.menu {
-    background-color: #ffffff;
-    display: flex;
-    flex-basis: auto;
-    align-content: center;
-    justify-content: space-between;
-    
-}
-
 
 
 a {
@@ -38,6 +29,11 @@ img {
     max-width: 100%;
     object-fit:cover;
 }
+
+.container {
+    
+}
+
 .container_header {
     max-width: 1158px;
     display: flex;
@@ -47,6 +43,10 @@ img {
 }
 
 .menu {
+    background-color: #ffffff;
+    flex-basis: auto;
+    align-items: center;
+    justify-content: space-between;
     max-width: 1158px;
     display: flex;
     margin: auto;
@@ -63,6 +63,7 @@ img {
     gap: 40px;
     margin: auto;
 }
+
 
 
 .contacts_list {
@@ -175,7 +176,7 @@ main {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    display: none;
+    visibility: hidden;
 }
 
 .list-of-benefits-container  {
@@ -197,7 +198,7 @@ main {
 .our-team-ul {
     display: flex;
     gap: 24px;
-    flex-basis: calc((100%-24)/4);
+    flex-basis: calc((100%-72)/4);
     justify-content: center;
     flex-wrap: wrap;
     
@@ -229,6 +230,10 @@ main {
     
 }
 
+.our-team-ul .title-three {
+    margin-bottom: 8px;
+}
+
 .portfolio-conteiner-title {
     color: #2E2F42;
     font-size: 36px;
@@ -238,6 +243,7 @@ main {
     line-height: 1.11;
     text-transform: capitalize;
     text-align: center;
+    margin-bottom: 72px;
 }
 
 .portfolio-conteiner-title-three {
@@ -257,7 +263,7 @@ main {
     text-align: center;
 }
  
-.portafolio-conteiner {
+.portfolio-conteiner {
     text-align: center;
     padding: 120px 0;
 }
@@ -266,17 +272,17 @@ main {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    flex-basis: calc((100%-24)/3);
+    flex-basis: calc((100%-48)/3);
     justify-content: center;
-    
+    row-gap: 48px;
 }
 
-.item_text {
+.portfolio-list .item_text {
     border-width: 1px 1px 1px 1px;
     border-style: solid;
     border-color: #E7E9FC;
-    padding-left: 16px;
-    
+    padding: 32px 16px;
+    border-top: none;
 }
 
 .portfolio-list .item {
