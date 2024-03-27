@@ -82,9 +82,7 @@ img {
     
 }
 
-main {
-    flex-grow: 1;
-}
+
 
 
 .menu_nav .item {
@@ -109,8 +107,7 @@ main {
 .contacts_list .item {
     letter-spacing: 0.02em;
     color: #434455;
-    font-style: normal;
-    display: block;    
+    font-style: normal;    
 }
 
 .contacts_list .item:focus,
@@ -131,6 +128,10 @@ main {
 }
 .logo-web {
     color:#2e2f42;
+}
+
+main {
+    flex-grow: 1;
 }
 
 .main-page-text-container {
