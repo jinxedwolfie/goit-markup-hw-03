@@ -80,7 +80,7 @@ img {
     gap: 40px;
     margin: auto;
     margin-left: 270px;
-    padding: 24px 0;
+    
 }
 
 main {
@@ -112,6 +112,7 @@ main {
     color: #434455;
     font-style: normal;
     display: block;
+    padding: 24px 0;
 }
 
 .contacts_list .item:focus,
