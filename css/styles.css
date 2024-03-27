@@ -73,13 +73,12 @@ img {
     
 }
 
-
-
 .contacts_list {
     display: flex;
     gap: 40px;
     margin: auto;
     margin-left: 270px;
+    padding: 24px 0;
     
 }
 
@@ -111,8 +110,7 @@ main {
     letter-spacing: 0.02em;
     color: #434455;
     font-style: normal;
-    display: block;
-    padding: 24px 0;
+    display: block;    
 }
 
 .contacts_list .item:focus,
